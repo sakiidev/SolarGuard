@@ -1,0 +1,12 @@
+name: SolarGuard
+version: 1.0.0
+main: me.saki.solarguard.SolarGuard
+api-version: 1.20
+author: saki
+description: Sistema de proteção avançada com integração Discord Webhook.
+commands:
+  solarguard:
+    description: Comando mestre de administração do SolarGuard.
+    aliases: [sg, guard]
+    permission: solarguard.admin
+    permission-message: "§cVocê não possui permissão para gerenciar o SolarGuard."

@@ -1,0 +1,18 @@
+# -----------------------------------------------------------
+# SolarGuard Anti-Cheat - Official Configuration File
+# -----------------------------------------------------------
+
+# Endereço de integração do Discord Webhook.
+# Gere este link em: Canal > Configurações > Integrações > Webhooks.
+webhook-url: "URL_AQUI"
+
+# Configurações de Punição Formal
+punishment:
+  violation-threshold: 12
+  kick-enabled: true
+  broadcast-announcement: true
+  
+# Preferências de Mensagens (Suporte a códigos de cor '&')
+messages:
+  prefix: "&8[&bSolarGuard&8] "
+  ban-reason: "&cO sistema detectou uma inconsistência grave em sua movimentação."
